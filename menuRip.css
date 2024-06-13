@@ -1,0 +1,90 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    width: min-content;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown li {
+    display: block;
+  }
+  
+  li:hover .dropdown {
+    display: block;
+  }
+  
+  /* Search bar styles */
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  button {
+    border: none;
+    background-color: #f8f8f8;
+    cursor: pointer;
+  }
+  
+  .fas.fa-search {
+    color: #333;
+  }
+  
+  /* Font Awesome Icon (replace with your own or remove if not using) */
+  /* You can replace the<i></i> tag with the actual Font Awesome icon HTML */
+  

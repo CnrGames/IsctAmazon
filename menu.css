@@ -1,0 +1,50 @@
+
+
+.Maincontanier
+{
+
+    display: flex;
+    flex-direction: column;
+    height: 94dvh;
+    width:  100%;
+background-color: chocolate;
+
+}
+
+
+
+.MenuHeader
+{
+    background-color: red;
+
+    min-height: 10vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.MenuContaniner
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/* Down Navs*/
+
+
+.MenuNav
+{
+
+    display: flex;
+  position: absolute;
+width: 95.5%;
+  bottom: 0px;
+padding: 8px;
+flex-direction: row;
+  justify-content: space-between;
+    background-color: green;
+}
